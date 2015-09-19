@@ -3,8 +3,8 @@
 #page-wrap {
 	width: 660px;
 	background: white;
-	padding: 20px 50px 20px 50px;
-	margin: 20px auto;
+	
+	margin: 0px auto;
 	min-height: 500px;
 	height: auto !important;
 	height: 500px;
@@ -16,7 +16,7 @@
 }
 
 #contact-area input, #contact-area textarea {
-	padding: 5px;
+	padding: 0px;
 	width: 471px;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.4em;
@@ -40,7 +40,7 @@
 label {
 	float: left;
 	text-align: right;
-	margin-right: 15px;
+	margin-right: 5px;
 	width: 100px;
 	padding-top: 5px;
 	font-size: 1.4em;
