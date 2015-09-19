@@ -2,6 +2,8 @@
 	height: 700px;
 	background-image:url(../assets/rail1.jpg);
 	background-size: cover;
+	background-color: gray;
+	opacity: 0.5%;
 }
 .skill{
 	padding-top: 500px;
@@ -19,3 +21,82 @@
 .contact{
 	position: relative;
 }
+#skills{
+	height: 350px;
+	background-color: gray;
+}
+.skilldiv{
+	padding-top: 150px;
+}
+#projects{
+	background-color: blue;
+	margin-top: 30px;
+}
+.projectsdiv{
+	padding-top: 20px;
+}
+/*Project image styling*/
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
