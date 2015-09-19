@@ -1,18 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-}
 
-body {
-	font-size: 62.5%;
-	font-family: Helvetica, sans-serif;
-	background: url(images/stripe.png) repeat;
-}
-
-p {
-	font-size: 1.3em;
-	margin-bottom: 15px;
-}
 
 #page-wrap {
 	width: 660px;
