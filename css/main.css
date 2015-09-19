@@ -3,6 +3,19 @@
 	background-image:url(../assets/rail1.jpg);
 	background-size: cover;
 }
-.skills{
-	padding-bottom: 500px;
+.skill{
+	padding-top: 500px;
+}
+.skill1{
+	position: relative;
+	margin-right: 300px;
+	
+}
+.project{
+	position: relative;
+	margin-right: 300px;
+
+}
+.contact{
+	position: relative;
 }
