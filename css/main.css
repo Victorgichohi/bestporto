@@ -20,7 +20,7 @@ body{
 	opacity: 0.5%;
 }
 .skill{
-	padding-top: 100px;
+	padding-top: 50px;
 }
 .skill1{
 	position: relative;
@@ -38,7 +38,7 @@ body{
 #skills{
 	height: 350px;
 	background-color: rgb(226,149,232);
-	opacity: 80;
+	opacity: 0.5%;
 }
 .skilldiv{
 	padding-top: 150px;

@@ -22,3 +22,5 @@
     function newTyped(){ /* A new typed object */ }
 
     function foo(){ console.log("Callback"); }
+
+//progress bar
