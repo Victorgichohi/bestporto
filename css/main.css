@@ -1,0 +1,8 @@
+#banner{
+	height: 700px;
+	background-image:url(../assets/rail1.jpg);
+	background-size: cover;
+}
+.skills{
+	padding-bottom: 500px;
+}
