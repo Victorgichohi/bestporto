@@ -278,7 +278,7 @@
                 //  self.stopNum = 0;
                 // }
 
-                if (self.contentType === 'html') {
+                if (self.contentType === 'text') {
                     // skip over html tags while backspacing
                     if (curString.substr(curStrPos).charAt(0) === '>') {
                         var tag = '';

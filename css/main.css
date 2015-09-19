@@ -117,35 +117,24 @@ span.text-content {
 /*typed.js*/
 
 
-a{
-	text-decoration: none;
-	color:#666;
-}
-	a:hover{
-		color:#999;
-	}
+
 p{
-	line-height: 2em;
-	margin:0 0 20px;
+	font-size: 30px;
+	
+	
 	text-align: center;
 }
 
 .wrap{
 	max-width: 600px;
 	margin:150px auto;
+	text-align: center;
 }
 
 .type-wrap{
-	margin:10px auto;
-	padding:20px;
-	background:#f0f0f0;
-	border-radius:5px;
-	border:#CCC 1px solid;
-}
-
-.links{
-	margin:20px 0;
-	font-size: 0.75em;
-	text-align: center;
+	font-size: 40px;
+	color: rgb(226,149,232);
+	padding:60px;
+	
 }
 
