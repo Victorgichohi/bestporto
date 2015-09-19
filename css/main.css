@@ -45,21 +45,21 @@ ul.img-list {
 
 ul.img-list li {
   display: inline-block;
-  height: 150px;
+  height: 300px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 150px;
+  width: 300px;
 }
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 300px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 150px;
+  width: 300px;
 }
 
 span.text-content span {
@@ -72,11 +72,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 300px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 150px;
+  width: 300px;
   opacity: 0;
 }
 
@@ -88,11 +88,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 300px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 150px;
+  width: 300px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
