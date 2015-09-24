@@ -98,13 +98,16 @@
 </head>
 <body>
   <div id="navigation">
-        <a href="#">Home</a>
-        <a href="#">Skills</a>
-        <a href="#">porto</a>
-        <a href="#">Contact</a>
+        <a href="#banner">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">porto</a>
+        <a href="#contact">Contact</a>
        
   </div>
     <!--banner-->
+    <div class="parallax-container">
+    <div class="parallax"><img src="images/rail1.jpg"></div>
+  </div>
     <section>
     <div id="banner">
      <br><br><br> <br><br><br> <br><br><br>
@@ -134,7 +137,7 @@
 	</section>
 
     <!--skills-->
-
+      
     <section>
     
 	 <div class="row">
@@ -174,6 +177,8 @@
               </div>
                </div>
 		  </div>
+     
+    
 		  <div class="row skill">
 			  	 <div class="col-md-4">
                     <p style="font-size:20px;">JavaSCRIPT</p>
@@ -195,8 +200,7 @@
 	<!--end of skills row-->
 
 	</section>
-
-	<!--projects-->
+ 
 	<section>
 	<div id="projects">
 	 <div class="row">
@@ -279,5 +283,23 @@
 
 
 <script type="text/javascript" src="js/main.js"></script>
+
+<!--smoot scroll-->
+<script type="text/javascript">$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});</script>
+  
+<script type="text/javascript">{$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$JssorEasing$.$EaseInCubic,$Opacity:$JssorEasing$.$EaseLinear},$Opacity:2} </script>
 </body>
 </html>
