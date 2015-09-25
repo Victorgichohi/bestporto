@@ -6,7 +6,7 @@
 }
 
 body{
-	font-family: "Ubuntu", sans-serif;
+	font-family: 'Boogaloo', sans-serif;
 	font-size: 100%;
 	background:#f8f8f8;
 
@@ -70,7 +70,7 @@ color: gray;
     font-family: "Ubuntu", sans-serif;
 }
 #skills{
-	height: 350px;
+	height: 550px;
 	background-color: gray;
 	opacity: 0.5%;
 
@@ -154,9 +154,9 @@ span.text-content {
 
 
 p{
-	font-size: 30px;
+	font-size: 90px;
 	
-	  font-family: "Ubuntu", sans-serif;
+	  font-family: 'Boogaloo', sans-serif;
 	text-align: center;
 }
 
@@ -167,16 +167,17 @@ p{
 }
 
 .type-wrap{
-	font-size: 40px;
+	font-size: 70px;
 	color: gray;
 	padding:60px;
+  font-family: 'Boogaloo', sans-serif;
 	
 }
 #contact{
   background-color: gray;
 }
 .links a{
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Boogaloo', sans-serif;
   text-decoration: none;
   font-size: 15px;
   color: black;
